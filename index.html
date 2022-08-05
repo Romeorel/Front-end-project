@@ -13,6 +13,11 @@
             An <b>example</b> of a <ins>plain</ins> and <i>simple</i> paragraph.
         </p>
 
+        <p><a href="#Youtube">Jump to the youtube link</a></p>
+        <!--When adding a href, first "#" then a letter-->
+
+        <p><a href="#Aurore_image">Go to the image</a></p>
+
         <p>
             Click on the icon below to take a great look at the <q><i>Aurore boréale</i></q>
         </p>
@@ -49,7 +54,7 @@
 
         <a href="mailto:cristaline@gmail.com">Send Email</a>
 
-        <p>Click here to go to youtube.</p>
+        <p id="Youtube">Click here to go to youtube.</p>
         
         <button onclick="location.href = 'https://www.youtube.com/'" >Youtube</button>
    
@@ -64,12 +69,12 @@
                 linked image 
                             here
         </pre>
-        
+
         <p>
             <a href ="https://pixabay.com/fr/photos/arbre-le-coucher-du-soleil-736885/">Here is the link</a> <br> Here is an example of an downloaded image.
         </p>
         <!-- This is an relative URL because saved in files already -->
-        <img src="img/img_lights.jpg" alt="Aurore boréale" width="700" height="300"> 
+        <img id="Aurore_image" src="img/img_lights.jpg" alt="Aurore boréale" width="700" height="300"> 
         <p><cite>Aurora</cite> by Google.</p>
         <br>
         <!-- This is an absolute URL because it has to go through the web -->
