@@ -26,8 +26,6 @@
             Click on the icon to take a great look at the <q><i>Aurore boréale</i></q>
         </p>
 
-        
-
         <p>
             This is another paragraph. <abbr title="IFZDD">ISIPS</abbr> est réputé pour les maths.
         </p>
@@ -65,24 +63,29 @@
             Here the same but the color is red
         </p>
 
-        <pre title="Tis is called a pre element">I will
-        put up a 
-                linked image 
-                            here
+        <pre title="Tis is called a pre element">
+        Here
+            is a great view 
+                of the Antarctica mountain 
         </pre>
 
-        <p>
-            <a href ="https://pixabay.com/fr/photos/arbre-le-coucher-du-soleil-736885/">Here is the link</a> <br> Here is an example of an downloaded image.
-        </p>
         <!-- This is an relative URL because saved in files already -->
-        <img id="Aurore_image" src="img/img_lights.jpg" alt="Aurore boréale" width="700" height="300"> 
-        <p><cite>Aurora</cite> by Google.</p>
+        <img id="Aurore_image" src="img/antarctica.jpg" alt="Antarctica climate" 
+        usemap="#Antarctica" width="650" height="300"> 
+        <p><cite>Antarctic whitescape</cite> by CoolAntarctica.</p>
 
-        <h2>Let's go, dude !</h2>
-        <iframe src="https://giphy.com/embed/2zcYldb9IsgzsueYZ8" width="480" height="270"></iframe>
+        <!--Map/Clickable picture for #Antarctica-->
+        <map name="Antarctica"> 
+            <!-- This one is the cloud-->
+            <area shape="rect" coords="0,65, 650,125" href="https://www.metoffice.gov.uk/weather/learn-about/weather/types-of-weather/clouds/other-clouds/lenticular#:~:text=Lenticular%20clouds%20are%20a%20visible,a%20few%20hundred%20metres%20away." target="_blank" alt="Lenticular clouds">
+
+            <!--This one is the mountain-->
+            <area shape="rect" coords="0,135, 650,200" href="https://www.mountainiq.com/antarctica/" target="_blank" alt="Antarctica mountain">
+        </map>
+
 
         <!-- This is an absolute URL because it has to go through the web -->
-        <a href="https://www.google.com/">Click here if you want to visit google.com</a> 
+        <a href="https://www.coolantarctica.com/index.php">Click here if you want to visit their website</a> 
         <!-- Better use relative URL. THey won't break if you change domain-->
         <hr>
 
