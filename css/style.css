@@ -32,15 +32,19 @@ a:link, a:visited{
 table, th, td {
     border: 1px solid #ddd;
     border-collapse: collapse;
-    border-color: black;
     text-align: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+}
+
+td{
+    background-color: #b3ccff;
 }
 
 th{
     background-color: #318CE7;
     color:#fff;
-    padding: 10px;
+    border-left: 5px;
 }
 
 tr:nth-child(odd){
@@ -50,6 +54,5 @@ tr:nth-child(odd){
 tr:hover {
     background-color: gray;
 }
-
 
 
